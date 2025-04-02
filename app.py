@@ -14,9 +14,9 @@ app = Flask(__name__)
 # *********************************************************************
 # **Important:** Replace with your actual service account credentials file path!
 # *********************************************************************
-SERVICE_ACCOUNT_FILE = './rizal-drive-cert.json'  # <--- REPLACE THIS
+SERVICE_ACCOUNT_FILE = './xxx.json'  # <--- REPLACE THIS
 # **Important:** Enter the email you want the file shared with below!
-USER_EMAIL_TO_SHARE_WITH = "rizaltamsil@gmail.com" # <--- REPLACE THIS WITH YOUR EMAIL
+USER_EMAIL_TO_SHARE_WITH = "yyy@gmail.com" # <--- REPLACE THIS WITH YOUR EMAIL
 # *********************************************************************
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets']
 
